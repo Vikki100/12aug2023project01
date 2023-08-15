@@ -40,7 +40,7 @@ body {
 h1 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 450px;
+  font-size: 480px;
   font-family: "Times New Roman", Times, serif;
 }
 .whitecard {
@@ -56,10 +56,10 @@ h1 {
   right: 80px;
 }
 .whitecard .line {
-  width: 50px;
-  height: 3px;
+  width: 100px;
+  height: 1px;
   background: #000;
-  margin: 0px 3px;
+  margin: 0px 10px;
 }
 .blackcard {
   display: flex;
@@ -71,7 +71,7 @@ h1 {
 
   /* border: 1px solid red; */
 
-  width: 202px;
+  width: 180px;
   height: 250px;
   background: #000;
 }
@@ -93,4 +93,11 @@ h1 {
   color: #fff;
   letter-spacing: 6px;
   transform: rotate(-90deg);
+}
+.whitecard i{
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 12px;
+  cursor:pointer;
+  z-index: 99999;
 }
